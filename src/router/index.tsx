@@ -16,9 +16,7 @@ import { BottomNavigation } from "../components";
 export type StackParams = {
   MainApp: undefined;
   Home: any;
-  Cart: {
-    item: string;
-  };
+  Cart: undefined;
   Promo: undefined;
   Riwayat: undefined;
   Profile: undefined;

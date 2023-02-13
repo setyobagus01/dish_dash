@@ -6,11 +6,10 @@ import { StackParams } from "../../router";
 
 type CartProps = NativeStackScreenProps<StackParams, "Cart">;
 
-const Cart = ({ route }: CartProps) => {
+const Cart = () => {
   return (
     <View style={styles.container}>
       <Text>Cart View!</Text>
-      {!route.params.item ? "" : <Text>{route.params.item}</Text>}
     </View>
   );
 };
